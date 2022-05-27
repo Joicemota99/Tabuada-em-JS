@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: normal Arial,sans-serif;
+}
+
+body{
+    background-color: rgba(216, 5, 128, 0.63);
+}
+
+header h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.container{
+    width: 500px;;
+    height: 300px;
+    display:flex;
+    background-color: white;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.322);
+    flex-direction: column;
+}
+
+.tabuada {
+    padding: 30px 10px;
+    margin: 0 auto;
+    
+    
+}
+.tabuada p{
+    color: rgba(216, 5, 128, 0.63);
+}
+
+input {
+    width: 60px;
+    height: 25px;
+    border: 1px solid rgba(216, 5, 128, 0.63);
+    border-radius: 10px;
+    text-align: center;
+    color: rgba(216, 5, 128, 0.63);
+    
+    
+}
+
+#btn{
+    padding: 5px;
+    border: none;
+    background-color: rgba(216, 5, 128, 0.63);
+    color: white;
+    border-radius: 10px;;
+}
+
+#seltab{   
+    width: 35%;
+    margin: 0 auto;
+    color:rgba(107, 2, 63, 0.877);
+    text-align: center;
+    border: 1px solid rgba(216, 5, 128, 0.63);
+    border-radius: 10px;
+}
+option{
+    
+    margin: 0 auto;
+    color:rgba(107, 2, 63, 0.877);
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
